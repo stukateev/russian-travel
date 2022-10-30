@@ -1,0 +1,35 @@
+
+
+.intro {
+  width: 100%;
+  max-width: 984px;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+@media screen and (max-width: 1279px){
+  .intro {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: 984px;
+    padding: 0 0 0 24px;
+    align-self: flex-start;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 0 0 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+  }
+}

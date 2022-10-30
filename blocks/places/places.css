@@ -1,0 +1,24 @@
+.places {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 102px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1279px) {
+  .places {
+    padding: 0 0 92px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding: 0 0 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    padding: 0 0 64px;
+  }
+}

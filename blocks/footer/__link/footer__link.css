@@ -1,0 +1,22 @@
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.12;
+  font-weight: 400;
+  transition: .5s ease-in-out;
+  margin-right: 18px;
+  display: block;
+}
+
+.footer__link:hover{
+  opacity: .8;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+    margin: 0 0 32px;
+  }
+}
