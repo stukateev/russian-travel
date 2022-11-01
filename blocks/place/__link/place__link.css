@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 767px) {
   .place__link {
-    display: none;
+    font-size: 18px;
+    line-height: 1.22;
   }
 }

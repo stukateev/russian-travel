@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 767px) {
   .place__url {
-    display: none;
+
+    margin: 0 16px;
   }
 }
